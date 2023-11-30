@@ -22,6 +22,7 @@ import PrivateRoute from "./PrivateRoute";
 import AdminRoute from "./AdminRoute";
 import Blog from "../Pages/Blog/Blog";
 import Team from "../Pages/Team/Team";
+import Contact from "../Pages/Contact/Contact";
 
 
 
@@ -63,6 +64,10 @@ export const router = createBrowserRouter([
             {
                 path: '/team',
                 element: <Team></Team>
+            },
+            {
+                path: '/contact',
+                element: <Contact></Contact>
             }
         ]
     },
