@@ -1,0 +1,332 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/Kmq5H42/Comprehensive-Health-Check.jpg",
+        "availableDates": [
+            "2023-12-01",
+            "2023-12-05",
+            "2023-12-10"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 20,
+        "title": "Comprehensive Health Check",
+        "shortDescription": "A thorough health checkup covering various medical tests.",
+        "details": {
+            "duration": "2 hours",
+            "price": "250",
+            "preparation": "Fasting for 12 hours before the test."
+        }
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/Njd1hBg/Cardiovascular-Screening.jpg",
+        "availableDates": [
+            "2023-12-02",
+            "2023-12-08",
+            "2023-12-15"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 15,
+        "title": "Cardiovascular Screening",
+        "shortDescription": "Specialized tests to assess heart and vascular health.",
+        "details": {
+            "duration": "1.5 hours",
+            "price": "200",
+            "preparation": "Avoid heavy meals before the test."
+        }
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/DfsNKD8/Women-s-Health-Package.jpg",
+        "availableDates": [
+            "2023-12-03",
+            "2023-12-09",
+            "2023-12-12"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 18,
+        "title": "Women's Health Package",
+        "shortDescription": "Tailored medical tests to address women's health concerns.",
+        "details": {
+            "duration": "2 hours",
+            "price": "180",
+            "preparation": "No specific preparation required."
+        }
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/bN5zCBJ/Gastrointestinal-Panel.jpg",
+        "availableDates": [
+            "2023-12-04",
+            "2023-12-11",
+            "2023-12-14"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 17,
+        "title": "Gastrointestinal Panel",
+        "shortDescription": "Comprehensive tests to evaluate digestive system health.",
+        "details": {
+            "duration": "1.5 hours",
+            "price": "220",
+            "preparation": "Avoid eating or drinking 6 hours before the test."
+        }
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/BZfk8Y6/Diabetes-Management-Panel.jpg",
+        "availableDates": [
+            "2023-12-06",
+            "2023-12-13",
+            "2023-12-18"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 23,
+        "title": "Diabetes Management Panel",
+        "shortDescription": "Tests and consultations focused on diabetes care.",
+        "details": {
+            "duration": "2 hours",
+            "price": "180",
+            "preparation": "Fasting for 8 hours before the test."
+        }
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/fGDfxnb/Radiology-Imaging-Package.jpg",
+        "availableDates": [
+            "2023-12-07",
+            "2023-12-16",
+            "2023-12-20"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 10,
+        "title": "Radiology Imaging Package",
+        "shortDescription": "Advanced imaging services for accurate diagnostics.",
+        "details": {
+            "duration": "Varies based on specific tests",
+            "price": "Depends on selected imaging services",
+            "preparation": "Follow specific preparation instructions for each imaging test."
+        }
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/fkcCfxy/01.jpg",
+        "availableDates": [
+            "2023-12-17",
+            "2023-12-22",
+            "2023-12-28"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 13,
+        "title": "Pediatric Health Checkup",
+        "shortDescription": "Specialized tests and examinations for children's health.",
+        "details": {
+            "duration": "1 hour",
+            "price": "150",
+            "preparation": "No specific preparation required."
+        }
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/jvMSnfY/02.jpg",
+        "availableDates": [
+            "2023-12-19",
+            "2023-12-24",
+            "2023-12-30"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 21,
+        "title": "Neurological Assessment",
+        "shortDescription": "Tests and consultations for neurological health.",
+        "details": {
+            "duration": "1.5 hours",
+            "price": "200",
+            "preparation": "No specific preparation required."
+        }
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/L6q3C7N/03.jpg",
+        "availableDates": [
+            "2023-12-21",
+            "2023-12-26",
+            "2023-12-31"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 23,
+        "title": "Dental Health Package",
+        "shortDescription": "Comprehensive dental tests and oral health assessments.",
+        "details": {
+            "duration": "1.5 hours",
+            "price": "150",
+            "preparation": "No specific preparation required."
+        }
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/sFnSCZg/04.jpg",
+        "availableDates": [
+            "2023-12-23",
+            "2023-12-27",
+            "2023-12-29"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 12,
+        "title": "Ophthalmology Screening",
+        "shortDescription": "Eye tests and screenings for maintaining vision health.",
+        "details": {
+            "duration": "1 hour",
+            "price": "120",
+            "preparation": "No specific preparation required."
+        }
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/df3JWyM/05.jpg",
+        "availableDates": [
+            "2023-12-02",
+            "2023-12-08",
+            "2023-12-15"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 15,
+        "title": "Allergy Testing",
+        "shortDescription": "Identification of allergies through comprehensive testing.",
+        "details": {
+            "duration": "1.5 hours",
+            "price": "180",
+            "preparation": "Avoid antihistamines before the test."
+        }
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/565Cn1Y/06.jpg",
+        "availableDates": [
+            "2023-12-11",
+            "2023-12-16",
+            "2023-12-22"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 19,
+        "title": "Pulmonary Function Test",
+        "shortDescription": "Assessment of lung function and respiratory health.",
+        "details": {
+            "duration": "1.5 hours",
+            "price": "200",
+            "preparation": "No specific preparation required."
+        }
+    },
+    {
+        "id": 13,
+        "image": "https://i.ibb.co/r0pmtxM/07.jpg",
+        "availableDates": [
+            "2023-12-04",
+            "2023-12-09",
+            "2023-12-12"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 25,
+        "title": "Thyroid Function Panel",
+        "shortDescription": "Tests to evaluate thyroid gland function and hormone levels.",
+        "details": {
+            "duration": "1 hour",
+            "price": "150",
+            "preparation": "No specific preparation required."
+        }
+    },
+    {
+        "id": 14,
+        "image": "https://i.ibb.co/Tc0dKTG/08.jpg",
+        "availableDates": [
+            "2023-12-06",
+            "2023-12-13",
+            "2023-12-18"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 26,
+        "title": "Bone Density Scan",
+        "shortDescription": "Diagnostics to assess bone health and density.",
+        "details": {
+            "duration": "1 hour",
+            "price": "120",
+            "preparation": "No specific preparation required."
+        }
+    },
+    {
+        "id": 15,
+        "image": "https://i.ibb.co/DVxNPFq/09.jpg",
+        "availableDates": [
+            "2023-12-07",
+            "2023-12-16",
+            "2023-12-20"
+        ],
+        "times": [
+            "09:00 AM - 02:00 PM",
+            "10:30 AM - 03:30 PM",
+            "08:00 AM - 01:00 PM"
+        ],
+        "slots": 28,
+        "title": "Liver Function Panel",
+        "shortDescription": "Comprehensive tests for assessing liver function and health.",
+        "details": {
+            "duration": "1.5 hours",
+            "price": "180",
+            "preparation": "No specific preparation required."
+        }
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "_id": 1,
+        "isActive": false,
+        "title": "Health Checkup Special",
+        "image": "https://i.ibb.co/CBKRgpk/01.jpg",
+        "text": "Book a comprehensive health checkup today and prioritize your well-being!",
+        "couponCode": "WELLNESS20",
+        "discountRate": 20
+    },
+    {
+        "_id": 2,
+        "isActive": true,
+        "title": "Radiology Services",
+        "image": "https://i.ibb.co/sym7ypS/02.jpg",
+        "text": "Explore our advanced radiology services for accurate diagnostics.",
+        "couponCode": "RADIOLOGY10",
+        "discountRate": 10
+    },
+    {
+        "_id": 3,
+        "isActive": false,
+        "title": "Women's Health Package",
+        "image": "https://i.ibb.co/Tt5DsHm/03.jpg",
+        "text": "Specialized health packages for women. Schedule your appointment now!",
+        "couponCode": "WOMENSCARE15",
+        "discountRate": 15
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "test_name": "Comprehensive Health Check",
+        "image": "https://i.ibb.co/jvMSnfY/02.jpg",
+        "discount_percentage": 20,
+        "valid_from": "2023-01-01",
+        "valid_until": "2023-02-28"
+    },
+    {
+        "test_name": "Cardiac Risk Assessment",
+        "image": "https://i.ibb.co/L6q3C7N/03.jpg",
+        "discount_percentage": 15,
+        "valid_from": "2023-03-01",
+        "valid_until": "2023-04-30"
+    },
+    {
+        "test_name": "Full Body MRI",
+        "image": "https://i.ibb.co/sFnSCZg/04.jpg",
+        "discount_percentage": 25,
+        "valid_from": "2023-05-01",
+        "valid_until": "2023-06-30"
+    },
+    {
+        "test_name": "Women's Health Package",
+        "image": "https://i.ibb.co/df3JWyM/05.jpg",
+        "discount_percentage": 18,
+        "valid_from": "2023-07-01",
+        "valid_until": "2023-08-31"
+    }
+]
