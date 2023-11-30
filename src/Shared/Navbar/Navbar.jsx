@@ -21,7 +21,8 @@ const Navbar = () => {
     const navLinks = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/all-tests">All Tests</NavLink></li>
-        <li><NavLink to="/Blog">Blog</NavLink></li>
+        <li><NavLink to="/blog">Blog</NavLink></li>
+        <li><NavLink to="/team">Team</NavLink></li>
         {
             isAdmin ? <li><NavLink to="/dashboard/all-users">Admin Dashboard</NavLink></li>
             : user &&

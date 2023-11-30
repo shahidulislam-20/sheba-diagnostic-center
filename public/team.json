@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Dr. Olivia Wellness",
+        "image": "https://i.ibb.co/QjTCqyn/01.jpg",
+        "position": "Chief Medical Officer",
+        "specialization": "Internal Medicine",
+        "experience_years": 20
+    },
+    {
+        "name": "Dr. Benjamin Diagnose",
+        "image": "https://i.ibb.co/T4Tnk0H/04.jpg",
+        "position": "Radiologist",
+        "specialization": "Diagnostic Radiology",
+        "experience_years": 15
+    },
+    {
+        "name": "Nurse Jessica Careful",
+        "image": "https://i.ibb.co/2jQVwd6/02.jpg",
+        "position": "Head Nurse",
+        "specialization": "Critical Care Nursing",
+        "experience_years": 12
+    },
+    {
+        "name": "Mr. Richard Techsavvy",
+        "image": "https://i.ibb.co/T4Tnk0H/04.jpg",
+        "position": "Medical Technologist",
+        "specialization": "Clinical Laboratory Science",
+        "experience_years": 10
+    },
+    {
+        "name": "Dr. Emily Heartwise",
+        "image": "https://i.ibb.co/QjTCqyn/01.jpg",
+        "position": "Cardiologist",
+        "specialization": "Cardiology",
+        "experience_years": 18
+    },
+    {
+        "name": "Ms. Sarah Wellness",
+        "image": "https://i.ibb.co/2jQVwd6/02.jpg",
+        "position": "Nutritionist",
+        "specialization": "Dietetics",
+        "experience_years": 8
+    },
+    {
+        "name": "Dr. Michael Diagnosave",
+        "image": "https://i.ibb.co/xzMYzVB/03.jpg",
+        "position": "Pathologist",
+        "specialization": "Anatomic Pathology",
+        "experience_years": 17
+    },
+    {
+        "name": "Ms. Rachel Radiant",
+        "image": "https://i.ibb.co/T4Tnk0H/04.jpg",
+        "position": "Radiology Technician",
+        "specialization": "Diagnostic Imaging",
+        "experience_years": 7
+    },
+    {
+        "name": "Dr. Robert Mindful",
+        "image": "https://i.ibb.co/QjTCqyn/01.jpg",
+        "position": "Psychiatrist",
+        "specialization": "Psychiatry",
+        "experience_years": 14
+    }
+]

@@ -21,6 +21,7 @@ import TestResults from "../Pages/Dashboard/TestResults/TestResults";
 import PrivateRoute from "./PrivateRoute";
 import AdminRoute from "./AdminRoute";
 import Blog from "../Pages/Blog/Blog";
+import Team from "../Pages/Team/Team";
 
 
 
@@ -41,7 +42,7 @@ export const router = createBrowserRouter([
             {
                 path: '/test-details/:id',
                 element: <PrivateRoute><TestDetails></TestDetails></PrivateRoute>,
-                loader: ({params}) => fetch(`http://localhost:5000/tests/${params.id}`)
+                loader: ({params}) => fetch(`https://sheba-diagnostic-center-server.vercel.app/tests/${params.id}`)
             },
             {
                 path: '/login',
@@ -58,6 +59,10 @@ export const router = createBrowserRouter([
             {
                 path: '/blog',
                 element: <Blog></Blog>
+            },
+            {
+                path: '/team',
+                element: <Team></Team>
             }
         ]
     },
@@ -98,7 +103,7 @@ export const router = createBrowserRouter([
             {
                 path: "update-test/:id",
                 element: <AdminRoute><UpdateTest></UpdateTest></AdminRoute>,
-                loader: ({params}) => fetch(`http://localhost:5000/tests/${params.id}`)
+                loader: ({params}) => fetch(`https://sheba-diagnostic-center-server.vercel.app/tests/${params.id}`)
             },
             {
                 path: "add-banner",
