@@ -10,6 +10,8 @@ const AllBanners = () => {
     const { data: banner = [], refetch } = useQuery({
         queryKey: ['banners'],
         queryFn: async () => {
+            // const token = localStorage.getItem('access-token');
+            // axiosSecure.defaults.headers.common['authorization'] = `Bearer ${token}`;
             const res = await axiosSecure.get('/banner')
             return res.data;
         }

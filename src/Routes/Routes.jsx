@@ -43,7 +43,7 @@ export const router = createBrowserRouter([
             {
                 path: '/test-details/:id',
                 element: <PrivateRoute><TestDetails></TestDetails></PrivateRoute>,
-                loader: ({params}) => fetch(`https://sheba-diagnostic-center-server.vercel.app/tests/${params.id}`)
+                loader: ({params}) => fetch(`http://localhost:5000/tests/${params.id}`)
             },
             {
                 path: '/login',
@@ -108,7 +108,7 @@ export const router = createBrowserRouter([
             {
                 path: "update-test/:id",
                 element: <AdminRoute><UpdateTest></UpdateTest></AdminRoute>,
-                loader: ({params}) => fetch(`https://sheba-diagnostic-center-server.vercel.app/tests/${params.id}`)
+                loader: ({params}) => fetch(`http://localhost:5000/tests/${params.id}`)
             },
             {
                 path: "add-banner",

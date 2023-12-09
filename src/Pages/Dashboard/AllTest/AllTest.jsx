@@ -2,11 +2,13 @@ import { useQuery } from "@tanstack/react-query";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
+import { useEffect, useState } from "react";
 
 
 const AllTest = () => {
 
     const axiosSecure = useAxiosSecure();
+    const [bookingData, setBookingData] = useState([]);
 
     const { data: tests = [], refetch } = useQuery({
         queryKey: ['admin-allTests'],
@@ -15,6 +17,23 @@ const AllTest = () => {
             return res.data;
         }
     })
+
+    useEffect(() => {
+        axiosSecure.get('/booking-count')
+            .then(res => {
+                setBookingData(res.data)
+            })
+    }, [axiosSecure])
+
+    // const ex = bookingData.find(data => data._id === 'Dental Health Package')
+    // console.log(bookingData.map(data => data._id === 'Dental Health Package'))
+   const exam =  bookingData.map(data => {
+        if(data._id === 'Dental Health Package'){
+            return data.count;
+        }
+        return 0;
+    })
+console.log(exam)
 
     const handleDelete = id => {
         Swal.fire({
@@ -37,7 +56,7 @@ const AllTest = () => {
                                 icon: "success"
                             });
                             refetch();
-                        } 
+                        }
                     })
             }
         });
@@ -59,6 +78,7 @@ const AllTest = () => {
                                     <th>Title</th>
                                     <th>Price</th>
                                     <th>Available Slots</th>
+                                    <th>Reservation</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
@@ -69,6 +89,15 @@ const AllTest = () => {
                                         <td>{data.title}</td>
                                         <td>{data.details.price}</td>
                                         <td>{data.slots}</td>
+                                        <td>
+                                            { 
+                                                bookingData.map(book => {
+                                                    if(book._id == data.title){
+                                                        return book.count;
+                                                    }
+                                                })
+                                            }  
+                                        </td>
                                         <th>
                                             <Link to={`/dashboard/update-test/${data._id}`}>
                                                 <button className="btn bg-prime font-bold text-white hover:text-black mr-2">Update</button>

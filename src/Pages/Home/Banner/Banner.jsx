@@ -11,6 +11,7 @@ const Banner = () => {
     useEffect(() => {
         axiosPublic.get('/banner')
             .then(res => setBannerData(res.data))
+            .catch(error => console.log(error))
     }, [axiosPublic])
 
 
